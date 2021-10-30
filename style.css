@@ -1,0 +1,52 @@
+#renLogo {
+  margin: auto;
+  display: block;
+  width: 175px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#holdlogo {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  position: relative
+}
+
+.imagecap {
+  clear: left;
+  font-style:italic;
+  padding:5px;
+  margin:5px;
+  text-align:center;
+}
+
+.imagecapright {
+  float: right;
+  width:30%;
+}
+
+.imagecapleft {
+  float: left;
+  width:30%;
+}
+
+.leftright {
+  width:45%!important;
+}
+
+.imagecap p {
+  text-align:center!important;
+  font-style:italic;
+}
+
+.jumbotron {
+  padding-bottom: 1rem!important;
+}
+
+.second {
+  background-color:aliceblue;
+}
